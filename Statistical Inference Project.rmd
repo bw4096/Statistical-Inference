@@ -1,0 +1,26 @@
+---
+title: "Statistical Inference Project"
+author: "Bryan Willauer"
+date: "4/23/2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+## Overview ##
+
+
+
+## Simulations ##
+
+
+
+## Sample Mean versus Theoretical Mean ##
+
+
+
+## Sample Variance versus Theoretical Variance ##
+
+
+
+## Distribution ##
