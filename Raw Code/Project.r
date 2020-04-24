@@ -1,20 +1,3 @@
----
-title: "Statistical Inference Project"
-author: "Bryan Willauer"
-date: "4/23/2020"
-output:
-html_document:
-df_print: paged
----
-
-## Overview ##
-
-In this project, the exponential distribution will be compared to the Central Limit Theorem. This will be 
-accomplished using simulations, graphs, and theoretical computations.
-
-## Simulations ##
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 set.seed(1968)
 n <- 40
@@ -41,17 +24,3 @@ data %>% ggplot(aes(sample)) +
                 lty = c(1, 2, 1, 2)) +
         ggtitle("Figure 1: Histogram of 1000 rexp variables (lambda=0.2)")
 
-
-```
-
-
-
-## Sample Mean versus Theoretical Mean ##
-
-
-
-## Sample Variance versus Theoretical Variance ##
-
-
-
-## Distribution ##
