@@ -2,7 +2,7 @@
 title: "Statistical Inference Project"
 author: "Bryan Willauer"
 date: "4/23/2020"
-output:
+output: html_document
 html_document:
 df_print: paged
 ---
